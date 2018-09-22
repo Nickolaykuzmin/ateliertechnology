@@ -1,0 +1,12 @@
+#login_page {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
+    padding-top: 20px;
+}
+
+#login_page form {
+    box-shadow: 0 0 10px silver;
+    padding: 10px;
+    /* border: 1px solid silver */
+}

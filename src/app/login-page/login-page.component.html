@@ -1,0 +1,23 @@
+<section id="login_page">
+    <div class="row">
+        <div class="col-md-12 mt-10">
+            <form [formGroup]="formGroup" (validSubmit)="onSubmit()">
+                <div class="form-group">
+                    <label class="control-label">Email</label>
+                    <input type="text" class="form-control" formControlName="Email">
+                    <span class="text-primary
+">simon@atelier.technology</span>
+                    <bfv-messages></bfv-messages>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Password</label>
+                    <input type="password" class="form-control" formControlName="Password">
+                    <span class="text-primary">Password!2</span>
+                    <bfv-messages></bfv-messages>
+                </div>
+                <button class="btn btn-default" type="button" (click)="onReset()">Reset</button>
+                <button class="btn btn-primary pull-right" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
